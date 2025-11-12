@@ -1,6 +1,6 @@
 # ♾️ InfiArtt: Infinity Art and Technology
 **🌐 Other Languages:**
-[Bahasa Indonesia 🇮🇩](docs/README.id.md) | [English 🇬🇧](README.md)
+[Bahasa Indonesia 🇮🇩](../docs/README.id.md) | [English 🇬🇧](README.md)
 
 <p align="center">
 <strong>Unlocking Digital Worlds for Everyone.</strong>
