@@ -1,69 +1,36 @@
-# ♾️ InfiArtt: Infinity Art and Technology
-**🌐 Other Languages:**
-[Bahasa Indonesia 🇮🇩](../docs/README.id.md) | [English 🇬🇧](README.md)
+# InfiArtt: Infinity Art and Technology
 
-<p align="center">
-<strong>Unlocking Digital Worlds for Everyone.</strong>
-</p>
+**Free your limits, unleash your creativity.**
 
----
+InfiArtt is an online community of blind and visually impaired people from across Indonesia, founded on 20 April 2020. It is a place where freedom of expression meets technological innovation: we learn, share and create together, without being held back by distance, time or physical ability.
 
-## 🚀 The Core of Our Mission
+The name says what we stand for: **Infinity**, without limits; **Art**, authentic creative work; and **Technology**, the things that make life better for everyone.
 
-InfiArtt is a vibrant, non-commercial online community founded and driven by **people with disabilities**. We are not just users of technology—we are active creators and innovators committed to solving the digital challenges we face every day.
+## What we do
 
-We believe the future of technology must be built on the principle of **digital equity**. Our work converges three crucial pillars:
+- **Open education:** guides, documentation and learning resources that anyone can use, from the basics to advanced topics, online and offline. See our [knowledge base](https://www.infiartt.com/kb).
+- **Community collaboration:** a space to discuss, solve problems together, share ideas and find people to work with.
+- **Real innovation:** turning ideas into working software and creative projects, built accessible from the start.
 
-1.  **Technology:** Building robust, open-source software solutions.
-2.  **Art & Expression:** Fostering creative outlets through accessible digital tools.
-3.  **Accessibility (A11Y):** Setting a standard for usability that genuinely enhances the experience for screen reader users and those with low vision.
+Our work is grounded in Indonesia's Law No. 8 of 2016 on Persons with Disabilities and Law No. 19 of 2011, which ratified the UN Convention on the Rights of Persons with Disabilities: the right to accessible information and technology should exist in practice, not only on paper.
 
----
+## Projects on GitHub
 
-## ✨ Our Current Innovation: Accessify Play
+- **[Accessify Play](https://github.com/InfiArtt/accessify-play):** an NVDA add-on that puts Spotify at your keyboard on any device: playback, your library and playlists, podcasts, audiobooks and synced lyrics.
+- **[Hariku](https://github.com/InfiArtt/hariku):** a minimalist, keyboard-driven personal organizer and accessible calendar for screen reader users. Developers can extend it with the [Hariku SDK](https://github.com/InfiArtt/hariku-sdk).
+- **[TeamTalkBot](https://github.com/InfiArtt/TeamTalkBot):** an automated admin companion for TeamTalk 5 servers.
 
-Our current primary focus is dedicated to the **Accessify Play** project. This is more than just an *add-on*; it is a statement on the necessity of seamless, barrier-free interaction with major digital platforms.
+More free, screen-reader-friendly tools for Windows, such as EZ Convert, ProxyFly and CapsLock Sound Notifier, are available on our [software page](https://www.infiartt.com/software).
 
-| Project | Description | Status | Technologies |
-| :--- | :--- | :--- | :--- |
-| **[Accessify Play](https://github.com/InfiArtt/accessify-play)** | Our flagship NVDA add-on that provides **full, keyboard-only control** of the Spotify platform for screen reader users. | `Active Development` | Python, Spotify Web API, NVDA SDK |
+## Get involved
 
-### Why This Project Matters
+- **Website and forum:** [infiartt.com](https://www.infiartt.com), where you can create a free account, join the [forum](https://www.infiartt.com/forum) and share guides.
+- **Community channels:** our [WhatsApp channel](https://whatsapp.com/channel/0029VaexPRqHFxOw0884dG2S) for announcements, and [YouTube](https://www.youtube.com/c/InfiArttOfficial), [Instagram](https://www.instagram.com/infiarttofficial/), [Facebook](https://facebook.com/infiartt) and [TikTok](https://www.tiktok.com/@infiartt).
+- **Code:** read the [contributing guide](https://github.com/InfiArtt/.github/blob/main/CONTRIBUTING.md), report bugs and ideas with the issue forms in each repository, and start new projects from our [project template](https://github.com/InfiArtt/project-template).
+- **Contact:** email [info@infiartt.com](mailto:info@infiartt.com). To report a security problem, follow our [security policy](https://github.com/InfiArtt/.github/blob/main/SECURITY.md).
 
-Accessify Play is a direct response to the lack of dedicated accessibility tools. By focusing on **global keyboard shortcuts** and screen reader integration, we transform a complex task (navigating a GUI) into an efficient, accessible experience.
+InfiArtt is run by volunteers. Meet the [team](https://www.infiartt.com/tim-kami).
 
----
+## Licensing
 
-## 🗺️ Our Vision: Building the Accessible Future
-
-We are currently laying the foundation for a diverse portfolio of open-source projects designed to increase independence and facilitate expression. As our community grows, our repository will expand to include:
-
-* **Assistive Utilities:** Tools and scripts that integrate major software platforms with screen readers.
-* **Creative Technology:** Projects focused on accessible art, music, and content creation tools.
-* **Documentation & Translation:** Making essential guides and resources available in Indonesian (`README.id.md`) and other key languages.
-
----
-
-## 🤝 Join the Collective
-
-InfiArtt thrives on collaboration and shared experience. We invite developers, testers, designers, and passionate users to join our movement.
-
-### 1. 💬 Engage with the Community
-
-This is the best place to start. Share your ideas, discuss project roadmaps, and connect with fellow contributors.
-
-* **GitHub Discussions:** [Visit our Community Forum](https://github.com/orgs/InfiArtt/discussions) (Your hub for all project-related feedback and ideas).
-* **Official Website:** [infiartt.com](https://www.infiartt.com) (Find links to our TeamTalk Server and other community channels here).
-
-### 2. 💻 Code & Testing
-
-We welcome Pull Requests that adhere to our standards. Our CI/CD pipeline is in place to ensure all code is properly linted and tested before merging.
-
-* **Start Contributing:** All rules and expectations for coding are detailed in the [CONTRIBUTING.md](https://github.com/InfiArtt/accessify-play/blob/main/CONTRIBUTING.md) file.
-* **Report Issues:** Help us stabilize our software by reporting bugs on the [Issues page](https://github.com/InfiArtt/accessify-play/issues).
-
----
-
-## ⚖️ Licensing
-
-All code and documentation created by the InfiArtt organization are released under the **MIT License** unless otherwise specified in the individual repository's `LICENSE` file. We are strong advocates for the open-source movement and compatibility with accessibility tools like NVDA (which uses the GPL license).
+Each repository states its license in its own `LICENSE` file.
