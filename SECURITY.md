@@ -7,7 +7,7 @@ We take the security of all projects under the **InfiArtt** organization serious
 **Please do NOT post security issues in the public GitHub Issues tracker.**
 
 Instead, please send an email directly to the maintainer at:
-**infiartt@gmail.com**
+**info@infiartt.com**
 
 ### Information to Include in Your Report
 
