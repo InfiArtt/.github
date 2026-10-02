@@ -1,0 +1,6 @@
+{
+  "name": "InfiArtt Web CI",
+  "description": "Installs dependencies, then runs the lint, build and test scripts of a Node.js project on every push and pull request.",
+  "categories": ["JavaScript", "TypeScript"],
+  "filePatterns": ["package.json$"]
+}

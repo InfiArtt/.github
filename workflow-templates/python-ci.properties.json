@@ -1,0 +1,6 @@
+{
+  "name": "InfiArtt Python CI",
+  "description": "Installs dependencies, checks that the code compiles and runs the tests on every push and pull request.",
+  "categories": ["Python"],
+  "filePatterns": ["requirements.txt$", "pyproject.toml$", "setup.py$"]
+}
