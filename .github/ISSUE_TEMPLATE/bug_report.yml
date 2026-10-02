@@ -1,0 +1,51 @@
+name: Bug report
+description: Something doesn't work the way it should
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please fill in as much as you can; every field has a label, so it works well with a screen reader.
+
+        **Found a security problem?** Please don't report it here. Follow our [security policy](https://github.com/InfiArtt/.github/blob/main/SECURITY.md) instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem, and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps that make the problem happen, one per line.
+      placeholder: |
+        1. Open ...
+        2. Press ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version of the project you are using, for example 1.12.1.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, and if it matters, your screen reader or assistive technology and its version (for example Windows 11, NVDA 2026.1).
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or error messages
+      description: Paste any error message or log here. For NVDA, open the log with NVDA+F1 and copy the part around the problem.
+      render: text
+    validations:
+      required: false
