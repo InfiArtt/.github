@@ -1,0 +1,39 @@
+# Gives every new public repository the standard default-branch protection
+# (no deleting it, no force-pushing to it). Organization rulesets need a paid
+# plan, so this applies the same ruleset repository by repository.
+#
+# Runs only on its schedule or by hand, never for pull requests, so the
+# admin token is never exposed to outside code.
+name: Protect new repositories
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # Every day at 03:17 UTC.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write # Only for the token-expiry reminder.
+
+concurrency:
+  group: protect-new-repositories
+  cancel-in-progress: false
+
+jobs:
+  protect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Apply the standard ruleset to unprotected repositories
+        env:
+          GH_TOKEN: ${{ secrets.ORG_ADMIN_TOKEN }}
+          ORG: ${{ github.repository_owner }}
+        run: bash scripts/protect-repos.sh
+
+      - name: Warn before the admin token expires
+        if: always()
+        env:
+          ADMIN_TOKEN: ${{ secrets.ORG_ADMIN_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/check-token-expiry.sh
